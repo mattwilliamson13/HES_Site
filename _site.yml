@@ -1,0 +1,17 @@
+name: "HES Code"
+navbar:
+  title: "Boise State Human Environment Systems Code Repo"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Projects"
+      href: projects.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
